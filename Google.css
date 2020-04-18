@@ -1,0 +1,180 @@
+#bloc_page
+{   
+     width: 900px;  
+     margin: auto; 
+
+}
+.tete
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding: 8px;
+    padding-right: 20px;
+}
+
+.lien
+{
+    text-decoration: none;
+    color: black;
+
+}
+.input:hover
+{
+    box-shadow: rgb(224, 222, 222) 5px 4px 4px;
+}
+
+.bout:hover
+{
+    box-shadow: rgb(224, 222, 222) 5px 4px 4px;
+}
+.lien:hover
+{
+    text-decoration: underline;
+}
+
+.bleue
+{
+    background-color: rgb(73, 118, 240);
+    color: white;
+   
+}
+
+section { 
+    text-align: center;
+}
+
+
+.input
+{
+  
+    text-align: center;
+    height: 50%;
+    width: 500px;
+    padding:12px;
+    border-radius: 20px;
+    background-image: url(mic.jpg);
+    margin-top: 27px ;
+    text-align: center
+   
+}
+
+.bon
+{
+    margin: auto;
+   
+}
+#google
+{
+        text-align: center;
+        margin: auto;
+        height: 40%;
+        width: 283px;
+        margin-top: 70px;
+        display: block;
+}
+
+
+
+.mic{
+    margin-top: -20rem; 
+    margin-left: 900px;
+    height: 26px;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    margin-left: -32px;
+}
+
+.bout
+{
+    
+    background-color: rgb(245, 243, 243);
+    color: white;
+    padding: 8px;
+    padding-right: 20px;
+}
+.bout a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.foot
+{
+    border:gray solid 0.5px;
+    display: block;
+    justify-content: flex-end;
+    background-color: #f2f2f2;
+    margin-top: 100px;
+    padding: 20px;
+    color: #000;
+}
+.lien-gauche
+{
+    float: left;
+}
+.lien-droite
+{
+    float: right;
+}
+
+.pays
+{
+    text-align: start;
+    border-bottom: gray solid 0.5px;
+  
+}
+footer
+{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        
+}
+@media screen and (max-width: 900px) 
+{
+    #bloc_page  
+    {       
+         width: auto;
+    }
+    #google
+     {
+         margin: 15px;
+            text-align: center;
+            height: 40%;
+            width: 283px;
+            margin-right: 90%;
+            margin-top: 70px;
+     }
+    .input
+     {
+  
+        margin:auto  ;
+       height: 40%;
+       width:300px;
+       padding:9px;
+       border-radius: 20px;
+       background-image: url(mic.jpg);
+       margin-top: 27px ;
+     }
+}
+@media screen and (max-width: 770px) 
+{
+    #google
+     {
+         text-align: center;
+          height: 40%;
+          width: 283px;
+          margin-right: 400px;
+         margin-top: 70px;
+     }
+     .bon
+     {
+         margin-left: 16px;
+        
+     }
+
+
+}
